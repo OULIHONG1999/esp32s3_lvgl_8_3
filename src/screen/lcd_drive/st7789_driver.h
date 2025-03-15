@@ -11,7 +11,7 @@ void lcd_set_backlight(uint8_t brightness);
 void lcd_draw_bitmap(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, const uint16_t *color_data);
 void app_lvgl(void);
 
-#if 1
+#if 0
 
 #define PIN_LCD_BL                   38
 
@@ -51,7 +51,8 @@ void app_lvgl(void);
 #define PIN_LCD_D6                   14
 #define PIN_LCD_D7                   15
 
-#define PIN_POWER_ON                 31
+#define PIN_POWER_ON                 48
+//#define PIN_POWER_ON                 31
 
 #define PIN_LCD_RES                  3
 #define PIN_LCD_CS                   4
